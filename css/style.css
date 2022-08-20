@@ -8,6 +8,16 @@
     min-height: 500px;
 }
 
+.banner-not-found {
+    min-height: calc(100vh - 168px);
+}
+
+@media (max-width: 991px) {
+    .banner-not-found {
+        min-height: calc(100vh - 150px);
+    }
+}
+
 @media (min-width: 992px) {
     .nav-icon {
         text-align: center;
